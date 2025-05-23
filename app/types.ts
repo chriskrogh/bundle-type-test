@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-void _;
+export const SOMETHING = _.noop;
 
 export type Count = {
   count: number;
