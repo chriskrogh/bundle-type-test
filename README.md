@@ -7,6 +7,7 @@ However, if `const INITIAL_COUNT = 0` is imported by `Counter`, `lodash` **DOES*
 ```ts
 import _ from "lodash";
 
+// Unused export
 export const SOMETHING = _.noop;
 
 export type Count = {

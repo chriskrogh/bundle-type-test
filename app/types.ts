@@ -1,5 +1,6 @@
 import _ from "lodash";
 
+// Unused export
 export const SOMETHING = _.noop;
 
 export type Count = {
